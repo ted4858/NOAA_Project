@@ -43,7 +43,7 @@ public class NoaaMain {
                 	System.out.println("\t\t    << ㅇ 4. 프로그램 종료 >>");
                     run = false;
                 } else {
-                	System.out.println("!! 잘못 입력하셨습니다. 다시 입력하세요! (입력값 : 1 ~ 3)\n");
+                	System.out.println("!! 잘못 입력하셨습니다. 다시 입력하세요! (입력값 : 1 ~ 4)\n");
                 }
 			} catch (MalformedURLException e) {
 //				e.printStackTrace();
