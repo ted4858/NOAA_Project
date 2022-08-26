@@ -66,7 +66,7 @@ public class ClimateChangeConfirmation extends SearchForData{
 		    yData = climateData[arrayNum];
 		    
 		    // Create Chart
-		    XYChart chart = QuickChart.getChart("Sample Chart", "X", "Y", "y(x)", xData, yData);
+		    XYChart chart = QuickChart.getChart("연도별 기온 변화 그래프", "연도(년도)", "기온(°C)", xData, yData);
 		 
 		    // Show it
 		    new SwingWrapper(chart).displayChart();
